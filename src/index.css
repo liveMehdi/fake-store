@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: white;
+  background-color: #812c6f0b;
 }
 
 a {
@@ -632,7 +632,8 @@ button {
 .product {
   width: calc(100% / 3.1);
   display: flex;
-  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 3px 7px rgb(129, 30, 108, 0.2);
+
   border-radius: 5px;
   overflow: hidden;
   position: relative;
@@ -642,7 +643,7 @@ button {
 }
 
 .product__loading {
-  width: calc(100% / 3.1);
+  width: calc(100% / 3.05);
   display: flex;
   box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
@@ -729,7 +730,8 @@ button {
 .product:hover {
   transform: translateY(-2px);
   cursor: pointer;
-  box-shadow: 0px 0px 7px rgb(129, 30, 108, 0.2);
+  box-shadow: 0px 0px 10px 2px rgb(129, 30, 108, 0.2);
+  ;
 }
 
 .search__filter--dropdown {

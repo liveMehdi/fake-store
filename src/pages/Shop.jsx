@@ -114,6 +114,7 @@ function Shop() {
                   className="search__input"
                   placeholder="Search"
                   onChange={(event) => setSearchedValue(event.target.value)}
+                  defaultValue={isThereFor}
                 />
                 <button
                   type="submit"
